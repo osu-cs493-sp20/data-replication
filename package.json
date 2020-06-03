@@ -1,0 +1,32 @@
+{
+  "name": "data-replication-mongodb",
+  "version": "1.0.0",
+  "description": "Dummy API with database replication for MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osu-cs493-sp20/data-replication.git"
+  },
+  "keywords": [
+    "Replication",
+    "API"
+  ],
+  "author": "Hess <hessro@oregonstate.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osu-cs493-sp20/data-replication/issues"
+  },
+  "homepage": "https://github.com/osu-cs493-sp20/data-replication#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
